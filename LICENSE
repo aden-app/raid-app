@@ -1,21 +1,44 @@
-MIT License
+# 🚀 تطبيق رائد | RAED App
 
-Copyright (c) 2026 aden-app
+> **تواصل يبني أثراً حقيقياً**  
+> منصة تواصل اجتماعي خفيفة، آمنة، ومستدامة قائمة على تقديم وتلقي المساعدة المتبادلة والخبرات محلياً وعالمياً.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 📌 نبذة عن المشروع
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+يُغير تطبيق **"رائد"** مفهوم التواصل الاجتماعي التقليدي؛ فبدلاً من إضاعة الوقت في متابعة اليوميات والبحث عن الإعجابات الوهمية، يركز التطبيق على حل المشكلات الفعلية وتسهيل تبادل المعرفة والخدمات بين أفراد المجتمع عبر **"خريطة الفائدة الحية"** ونظام **"مؤشر الأثر"**.
+
+---
+
+## ✨ المميزات الرئيسية
+
+* **خفيف جداً وسريع:** حجم التطبيق صغير، ويعمل بكفاءة عالية على شبكات الاتصال الضعيفة (2G/3G).
+* **خريطة الفائدة الحية (Live Impact Map):** استكشاف طلبات المساعدة وعروض الخبرات القريبة جغرافياً أو عالمياً.
+* **مؤشر الأثر والوثوقية (Impact Score):** نظام تقييم تراكمي يضمن جدية التفاعل وأمان المجتمع.
+* **تشفير تام بين الطرفين (E2EE):** محادثات خاصة ومحمية بالكامل باستخدام بروتوكولات تشفير حديثة (X25519 + AES-GCM).
+* **خالٍ من الإعلانات والتتبع:** تصميم نقي ومُبسط بدون خوارزميات إدمانية.
+
+---
+
+## 🛠️ البنية التقنية (Tech Stack)
+
+* **التطبيق (Frontend):** Flutter / Dart (Minimalist & Vector UI).
+* **الخلفية (Backend):** Go (Golang) Microservices.
+* **قاعدة البيانات:** PostgreSQL + PostGIS (للبحث والبيانات الجغرافية).
+* **التشفير (Security):** Cryptography Library (X25519 Key Exchange + AES-GCM-256).
+* **النشر والتشغيل (DevOps):** Docker & GitHub Actions CI/CD.
+
+---
+
+## 📂 هيكل المشروع
+
+```text
+raed-app/
+├── .github/
+│   └── workflows/
+│       └── build.yml   # ملف البناء التلقائي للـ APK
+├── lib/
+│   └── main.dart       # شاشات التطبيق والبصريات
+├── pubspec.yaml        # المكتبات والإعدادات
+└── README.md           # دليل المشروع
